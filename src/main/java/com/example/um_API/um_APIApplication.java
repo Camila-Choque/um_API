@@ -8,13 +8,13 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class  umAPIApplication {
-	private static final Logger logger = LoggerFactory.getLogger(umAPIApplication.class);
+public class  um_APIApplication {
+	private static final Logger logger = LoggerFactory.getLogger(um_APIApplication.class);
 
 	@Autowired
 	private PersonaRepository personaRepository;
 	public static void main(String[] args) {
-		SpringApplication.run(umAPIApplication.class, args);
+		SpringApplication.run(um_APIApplication.class, args);
 
 		System.out.println("funcionando el proyecto");
 	}
